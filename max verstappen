@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Max Verstappen | The Flying Dutchman</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#020b1f;
+color:white;
+}
+
+nav{
+background:#000;
+padding:20px;
+position:sticky;
+top:0;
+z-index:1000;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:red;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
+url('https://wallpapercave.com/wp/wp13682042.jpg');
+
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero-content h1{
+font-size:80px;
+color:#ff2b2b;
+}
+
+.hero-content h2{
+font-size:35px;
+margin-top:10px;
+}
+
+.hero-content p{
+margin-top:20px;
+font-size:22px;
+}
+
+.hero button{
+margin-top:25px;
+padding:15px 30px;
+border:none;
+background:red;
+color:white;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#ff5e5e;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:45px;
+color:#ff2b2b;
+margin-bottom:40px;
+}
+
+.bio{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+align-items:center;
+}
+
+.bio img{
+width:400px;
+border-radius:20px;
+}
+
+.bio-text{
+flex:1;
+line-height:1.8;
+font-size:18px;
+}
+
+.timeline{
+margin-top:40px;
+}
+
+.timeline-item{
+background:#09142d;
+padding:20px;
+margin:15px 0;
+border-left:5px solid red;
+border-radius:10px;
+}
+
+.timeline-item h3{
+color:#ff4444;
+margin-bottom:10px;
+}
+
+.highlight{
+background:#09142d;
+padding:40px;
+border-radius:20px;
+margin-top:30px;
+}
+
+.highlight ul{
+line-height:2;
+font-size:18px;
+}
+
+.redbull{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+align-items:center;
+}
+
+.redbull img{
+width:500px;
+border-radius:20px;
+}
+
+.redbull-text{
+flex:1;
+font-size:18px;
+line-height:1.8;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#bio">Biography</a>
+<a href="#timeline">Timeline</a>
+<a href="#redbull">Red Bull</a>
+<a href="#gallery">Gallery</a>
+<a href="#quotes">Quotes</a>
+<a href="#stats">Stats</a>
+</nav>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>MAX VERSTAPPEN</h1>
+
+<h2>THE FLYING DUTCHMAN</h2>
+
+<p>
+4x Formula One World Champion
+</p>
+
+<button>Explore The Legend</button>
+
+</div>
+
+</section>
+
+<section id="bio">
+
+<h2 class="section-title">
+Biography
+</h2>
+
+<div class="bio">
+
+<img src="https://wallpaperaccess.com/full/13633699.jpg">
+
+<div class="bio-text">
+
+<p>
+
+Max Emilian Verstappen was born on September 30, 1997.
+
+He made his Formula One debut in 2015 and instantly became the youngest driver in Formula One history.
+
+In 2016, he became the youngest Grand Prix winner ever by winning the Spanish Grand Prix at just 18 years old.
+
+His aggressive driving style, incredible race pace and determination earned him the nickname:
+
+<b>The Flying Dutchman</b>
+
+In 2021 he won his first Formula One World Championship after one of the most dramatic title battles in F1 history.
+
+He continued his dominance by winning additional championships in 2022, 2023 and 2024.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="timeline">
+
+<h2 class="section-title">
+Career Timeline
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>2015</h3>
+<p>Formula One Debut with Toro Rosso.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2016</h3>
+<p>Youngest Grand Prix Winner after winning the Spanish Grand Prix.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2021</h3>
+<p>Won his first Formula One World Championship.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2022</h3>
+<p>Won his second World Championship.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2023</h3>
+<p>Won his third World Championship with a record-breaking season.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2024</h3>
+<p>Won his fourth Formula One World Championship.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Major Achievements
+</h2>
+
+<div class="highlight">
+
+<ul>
+
+<li>Youngest Formula One Driver</li>
+
+<li>Youngest Formula One Grand Prix Winner</li>
+
+<li>4x Formula One World Champion</li>
+
+<li>Multiple Record-Breaking Winning Streaks</li>
+
+<li>One of the Most Successful Drivers in Formula One History</li>
+
+<li>Red Bull Racing Legend</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="redbull">
+
+<h2 class="section-title">
+Red Bull Racing
+</h2>
+
+<div class="redbull">
+
+<img src="https://wallpapercave.com/wp/wp9824908.jpg">
+
+<div class="redbull-text">
+
+<p>
+
+Max Verstappen races for Red Bull Racing.
+
+Together they created one of the most dominant partnerships in Formula One history.
+
+The Red Bull RB series cars became famous for their speed, aerodynamics and championship-winning performance.
+
+The team and Max have won multiple world championships together and continue to dominate Formula One.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PART 2 STARTS BELOW THIS LINE -->
+<section id="gallery">
+
+<h2 class="section-title">
+Gallery
+</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;">
+
+<img src="https://wallpapercave.com/wp/wp13682042.jpg"
+style="width:100%;border-radius:20px;">
+
+<img src="https://wallpaperaccess.com/full/13633699.jpg"
+style="width:100%;border-radius:20px;">
+
+<img src="https://i.cdn.newsbytesapp.com/images/l25720231119133438.jpeg"
+style="width:100%;border-radius:20px;">
+
+<img src="https://content.api.news/v3/images/bin/177dc494bb8ee66b528fb8b9d1dec7b0"
+style="width:100%;border-radius:20px;">
+
+<img src="https://wallpapercave.com/wp/wp9824908.jpg"
+style="width:100%;border-radius:20px;">
+
+</div>
+
+</section>
+
+<section id="stats">
+
+<h2 class="section-title">
+Career Statistics
+</h2>
+
+<div style="display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;">
+
+<div style="background:#09142d;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:220px;">
+
+<h1 id="titles">0</h1>
+<p>World Championships</p>
+
+</div>
+
+<div style="background:#09142d;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:220px;">
+
+<h1 id="wins">0</h1>
+<p>Race Wins</p>
+
+</div>
+
+<div style="background:#09142d;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:220px;">
+
+<h1 id="podiums">0</h1>
+<p>Podiums</p>
+
+</div>
+
+<div style="background:#09142d;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:220px;">
+
+<h1 id="poles">0</h1>
+<p>Pole Positions</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="quotes">
+
+<h2 class="section-title">
+Iconic Quotes
+</h2>
+
+<div class="highlight">
+
+<p>
+💬 "You can sleep when you're dead."
+</p>
+
+<br>
+
+<p>
+💬 "I just want to race."
+</p>
+
+<br>
+
+<p>
+💬 "Winning is the goal."
+</p>
+
+<br>
+
+<p>
+💬 "If you no longer go for a gap that exists, you're no longer a racing driver."
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+The Flying Dutchman
+</h2>
+
+<div class="highlight">
+
+<p>
+
+"The Flying Dutchman" is Max Verstappen's famous nickname.
+
+Known for his fearless overtakes, incredible speed and championship mentality, Max has become one of the most iconic drivers in Formula One history.
+
+His journey from karting prodigy to four-time world champion has inspired millions of fans around the world.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Famous Championship Years
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>🏆 2021</h3>
+<p>First Formula One World Championship.</p>
+</div>
+
+<div class="timeline-item">
+<h3>🏆 2022</h3>
+<p>Second Formula One World Championship.</p>
+</div>
+
+<div class="timeline-item">
+<h3>🏆 2023</h3>
+<p>Third Formula One World Championship.</p>
+</div>
+
+<div class="timeline-item">
+<h3>🏆 2024</h3>
+<p>Fourth Formula One World Championship.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Watch Highlights
+</h2>
+
+<center>
+
+<iframe
+width="800"
+height="450"
+src="https://www.youtube.com/embed/BPyzqb6vcOg"
+title="Max Verstappen Highlights"
+allowfullscreen>
+</iframe>
+
+</center>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Background Music
+</h2>
+
+<center>
+
+
+
+<p>
+tu du du du Max Verstappen 😎🤖🐱‍🏍
+<b>music.mp3</b>
+</p>
+
+</center>
+
+</section>
+
+<footer style="
+background:black;
+padding:50px;
+text-align:center;
+margin-top:50px;">
+
+<h2 style="color:red;">
+MAX VERSTAPPEN
+</h2>
+
+<p>
+The Flying Dutchman 🐱‍🏍🏎️
+</p>
+
+<br>
+
+<p>
+Made by an F1 Fan ❤️
+</p>
+
+</footer>
+
+<script>
+
+function animate(id,target){
+
+let count=0;
+
+let speed=Math.ceil(target/100);
+
+let interval=setInterval(function(){
+
+count+=speed;
+
+if(count>=target){
+
+count=target;
+
+clearInterval(interval);
+
+}
+
+document.getElementById(id).innerHTML=count;
+
+},20);
+
+}
+
+animate("titles",4);
+animate("wins",65);
+animate("podiums",117);
+animate("poles",40);
+
+</script>
+
+</body>
+</html>
