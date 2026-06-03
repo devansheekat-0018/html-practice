@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>House of Horror</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:black;
+color:white;
+}
+
+nav{
+background:#080808;
+padding:20px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:red;
+}
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(
+rgba(0,0,0,0.5),
+rgba(0,0,0,0.9)
+),
+
+url('https://wallpapercave.com/wp/wp14827129.webp');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+}
+
+.hero-content h1{
+
+font-size:90px;
+
+color:#8B0000;
+
+text-shadow:
+0 0 10px red,
+0 0 20px red,
+0 0 40px red;
+
+}
+
+.hero-content p{
+
+font-size:30px;
+
+margin-top:20px;
+
+}
+
+.hero-content button{
+
+margin-top:30px;
+
+padding:15px 30px;
+
+font-size:20px;
+
+background:#8B0000;
+
+border:none;
+
+color:white;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
+
+.hero-content button:hover{
+
+background:red;
+
+}
+
+.section-title{
+
+font-size:50px;
+
+text-align:center;
+
+margin:60px 0;
+
+color:#8B0000;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#movies">Movies</a>
+
+<a href="#villains">Villains</a>
+
+<a href="#facts">Facts</a>
+
+<a href="#trailers">Trailers</a>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>HOUSE OF HORROR</h1>
+
+<p>Enter If You Dare...</p>
+
+<button>Explore Nightmares</button>
+
+</div>
+
+</section>
+
+<section id="movies">
+
+<h2 class="section-title">
+Top Horror Movies
+</h2>
+
+<!-- MOVIE CARDS COMING IN PART 2 -->
+
+</section> 
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:20px;">
+
+<!-- Movie 1 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://tse2.mm.bing.net/th/id/OIP.tpb09Jal-z1paIDyvQCX7wAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>The Conjuring</h3>
+<p>⭐ 8.5/10</p>
+<p>A family experiences terrifying paranormal events in their farmhouse.</p>
+</div>
+
+<!-- Movie 2 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://th.bing.com/th/id/R.c937b2d59f373af3f3d9d88e9f994765?rik=PjbIBsulwZ1Y1g&riu=http%3a%2f%2fwww.impawards.com%2f2018%2fposters%2finsidious_the_last_key_xxlg.jpg&ehk=Ul3%2fZisho6W6aQNtgpIlUATINKHZz7kcim%2baFkxMaGg%3d&risl=&pid=ImgRaw&r=0"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>Insidious</h3>
+<p>⭐ 8.4/10</p>
+<p>A family battles dark spirits from a mysterious realm.</p>
+</div>
+
+<!-- Movie 3 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://image.tmdb.org/t/p/original/7cNG3dCBY4fWol63eJSykFX6DnT.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>The Nun</h3>
+<p>⭐ 8.0/10</p>
+<p>A demonic nun terrorizes a remote monastery.</p>
+</div>
+
+<!-- Movie 4 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://images.justwatch.com/poster/25607165/s718/annabelle.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>Annabelle</h3>
+<p>⭐ 7.8/10</p>
+<p>A possessed doll spreads fear wherever it goes.</p>
+</div>
+
+<!-- Movie 5 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://images-na.ssl-images-amazon.com/images/I/91XQ4feYRpL._AC_SL1500_.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>IT</h3>
+<p>⭐ 8.2/10</p>
+<p>Pennywise returns every 27 years to hunt children.</p>
+</div>
+
+<!-- Movie 6 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://tse2.mm.bing.net/th/id/OIP.Rq3eXAHFADLDU_WuFdIUtAHaLH?r=0&w=682&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>Smile</h3>
+<p>⭐ 7.9/10</p>
+<p>A terrifying curse spreads through disturbing smiles.</p>
+</div>
+
+<!-- Movie 7 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://wallpapercave.com/wp/wp14644057.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>Sinister</h3>
+<p>⭐ 9.0/10</p>
+<p>A writer discovers horrifying home videos linked to Bagul.</p>
+</div>
+
+<!-- Movie 8 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://image.tmdb.org/t/p/original/sUAzveMkEc3dxNDebGf6AtNT91f.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>A Quiet Place</h3>
+<p>⭐ 8.1/10</p>
+<p>Survival depends on staying completely silent.</p>
+</div>
+
+<!-- Movie 9 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://img.moviepostershop.com/the-ring-movie-poster-1998-1020491596.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>The Ring</h3>
+<p>⭐ 8.0/10</p>
+<p>A cursed videotape brings death within seven days.</p>
+</div>
+
+<!-- Movie 10 -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://image.tmdb.org/t/p/original/es0fDLmdXeW7kVErHzOFy9Qdmrx.jpg"
+style="width:100%;height:380px;object-fit:cover;border-radius:10px;">
+<h3>Hereditary</h3>
+<p>⭐ 8.7/10</p>
+<p>A family uncovers horrifying secrets after a tragedy.</p>
+</div>
+
+</div>
+
+<!-- VILLAINS SECTION COMING NEXT -->
+
+<section id="villains">
+
+<h2 class="section-title">
+👹 Villains Hall
+</h2> 
+<section id="villains">
+
+<h2 class="section-title">
+👹 Villains Hall
+</h2>
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+padding:20px;">
+
+<!-- Valak -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://i.pinimg.com/originals/ef/9b/36/ef9b36d5956440e94ab164f7112d9baf.png"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Valak</h3>
+<p>From: The Nun</p>
+<p>Threat Level: ⭐⭐⭐⭐⭐</p>
+<p>The terrifying demon nun that haunts churches and monasteries.</p>
+</div>
+
+<!-- Annabelle -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/04/Annabelle-movie-poster.jpg"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Annabelle</h3>
+<p>From: Annabelle</p>
+<p>Threat Level: ⭐⭐⭐⭐</p>
+<p>A possessed doll connected to supernatural horrors.</p>
+</div>
+
+<!-- Pennywise -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://i.pinimg.com/originals/6a/dd/f2/6addf29252bde0489d57ff6d828d5a14.jpg"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Pennywise</h3>
+<p>From: IT</p>
+<p>Threat Level: ⭐⭐⭐⭐⭐</p>
+<p>The dancing clown that returns every 27 years.</p>
+</div>
+
+<!-- Jigsaw -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_2_3_large/public/product-images/csm-movie/jigsaw-poster0.jpg"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Jigsaw</h3>
+<p>From: Saw</p>
+<p>Threat Level: ⭐⭐⭐⭐</p>
+<p>Mastermind behind deadly survival games.</p>
+</div>
+
+<!-- Bagul -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://www.slashfilm.com/img/gallery/the-30-scariest-horror-movie-monsters-ranked/bughuul-sinister-2012-1715291962.jpg"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Bagul</h3>
+<p>From: Sinister</p>
+<p>Threat Level: ⭐⭐⭐⭐⭐</p>
+<p>An ancient evil associated with terrifying home movies.</p>
+</div>
+
+<!-- Samara -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/399cd29f-46cc-4c0f-b9d6-a6b7690ac71e/d8geet8-a25f04c9-5d31-4647-8ab9-0035052e196f.jpg"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Samara Morgan</h3>
+<p>From: The Ring</p>
+<p>Threat Level: ⭐⭐⭐⭐</p>
+<p>The mysterious girl connected to a cursed videotape.</p>
+</div>
+
+<!-- Insidious Doll Girl -->
+<div style="background:#111;padding:15px;border-radius:15px;text-align:center;">
+<img src="https://tse3.mm.bing.net/th/id/OIP.4n4_DxiBpiq9GymdFaIW_wHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+style="width:100%;height:350px;object-fit:cover;border-radius:10px;">
+<h3>Doll Girl</h3>
+<p>From: Insidious</p>
+<p>Threat Level: ⭐⭐⭐</p>
+<p>A creepy supernatural figure from the Insidious universe.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SCARE METER COMING IN PART 4 -->
+<!-- SCARE METER SECTION -->
+
+<section id="facts">
+
+<h2 class="section-title">
+📊 Scare Meter
+</h2>
+
+<div style="
+max-width:900px;
+margin:auto;
+padding:20px;">
+
+<h3>The Conjuring — 9/10</h3>
+<progress value="90" max="100" style="width:100%;"></progress>
+
+<br><br>
+
+<h3>Insidious — 9/10</h3>
+<progress value="90" max="100" style="width:100%;"></progress>
+
+<br><br>
+
+<h3>The Nun — 8/10</h3>
+<progress value="80" max="100" style="width:100%;"></progress>
+
+<br><br>
+
+<h3>IT — 8/10</h3>
+<progress value="80" max="100" style="width:100%;"></progress>
+
+<br><br>
+
+<h3>Sinister — 9.5/10</h3>
+<progress value="95" max="100" style="width:100%;"></progress>
+
+</div>
+
+</section>
+
+
+<!-- TRAILER ROOM -->
+
+<section id="trailers">
+
+<h2 class="section-title">
+🎥 Trailer Room
+</h2>
+
+<div style="text-align:center;">
+
+<iframe width="800" height="450"
+src="https://www.youtube.com/embed/k10ETZ41q5o"
+title="The Conjuring Trailer"
+allowfullscreen>
+</iframe>
+
+<br><br>
+
+<iframe width="800" height="450"
+src="https://www.youtube.com/embed/0llBLK3b6Po"
+title="IT Trailer"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+
+<!-- HORROR FACTS -->
+
+<section>
+
+<h2 class="section-title">
+📖 Horror Facts
+</h2>
+
+<div style="
+background:#111;
+padding:30px;
+border-radius:20px;
+max-width:1000px;
+margin:auto;">
+
+<p>
+🩸 The Conjuring was inspired by reports from a real family.
+</p>
+
+<br>
+
+<p>
+👻 Pennywise returns every 27 years in the story of IT.
+</p>
+
+<br>
+
+<p>
+💀 The Nun became one of the highest-grossing films in The Conjuring Universe.
+</p>
+
+<br>
+
+<p>
+🎬 Horror movies often use sound design more than visuals to create fear.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- SECRET BUTTON -->
+
+<section>
+
+<h2 class="section-title">
+⚠️ Forbidden Button
+</h2>
+
+<div style="text-align:center;">
+
+<button onclick="horrorAlert()"
+style="
+padding:20px 40px;
+font-size:20px;
+background:#8B0000;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;">
+
+DO NOT CLICK
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer style="
+background:#050505;
+padding:50px;
+text-align:center;
+margin-top:60px;">
+
+<h2 style="color:#8B0000;">
+🏚️ HOUSE OF HORROR
+</h2>
+
+<br>
+
+<p>
+Enter If You Dare...
+</p>
+
+<br>
+
+<p>
+Created by Devansheeka 👻
+</p>
+
+<br>
+
+<p>
+Future Web Developer 💻
+</p>
+
+</footer>
+
+
+<script>
+
+function horrorAlert(){
+
+alert(
+"👻 Welcome to the House of Horror! The darkness is watching..."
+);
+
+}
+
+</script>
+
+</body>
+</html>
